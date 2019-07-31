@@ -1,14 +1,53 @@
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Apka Reactowa! - Lista filmów</title>
-  </head>
-  <body>
-    <div id="app"></div>
 
-    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <title>Apka Reactowa! - Lista filmów</title>
+  <style>
+    .container {
+      width: 350px;
+      margin: auto;
+      font-family: sans-serif;
+      text-align: center;
+    }
 
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+    h1 {
+      background-color: rgb(224, 254, 255);
+    }
+
+    .movie {
+      background-color: beige;
+      padding: 5px;
+    }
+
+    li {
+      display: block;
+      list-style: none;
+      border-bottom: 1px solid black;
+      padding-bottom: 15px;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      width: 200px;
+      height: 40px;
+      background-color: rgb(206, 206, 206);
+      border: 1px solid black;
+      color: black;
+      line-height: 40px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>
