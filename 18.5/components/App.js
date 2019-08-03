@@ -31,7 +31,6 @@ var App = React.createClass({
       "div",
       { className: "app" },
       React.createElement("h3", { className: "form-header" }, "Contact form"),
-      React.createElement("div", { className: "icon" }),
       React.createElement(ContactForm, { contact: contactForm }),
       React.createElement(Contacts, { items: contacts }, {})
     );

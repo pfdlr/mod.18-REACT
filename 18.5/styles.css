@@ -37,9 +37,9 @@ form.contactForm {
   height: 60px;
   background-image: url("http://pluspng.com/img-png/email-icon-png-email-circle-icon-design-512.png");
   background-size: cover;
-  position: absolute;
-  top: 40px;
-  left: 763px;
+  position: relative;
+  top: -55px;
+  left: 90px;
 }
 input[type="text"],
 input[type="email"] {
